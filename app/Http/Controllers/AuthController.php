@@ -12,9 +12,8 @@ class AuthController extends Controller
 {
 
     public function register(Request $request){
-        try{
-
-        
+    
+    try{
         $fields= $request->validate([
             'name'=>'required|string',
             'email' => 'required|string|unique:users,email',
@@ -38,10 +37,10 @@ class AuthController extends Controller
             'token'=>$token,
         ];
         return Response($response, 201);
-        } catch (\Exception $e) {
-                return response()->json(['error' => 'An error occurred'], 500);
-        }
+    } catch (\Exception $e) {
+        return response()->json(['error' => 'An error occurred',$e], 500);
     }
+}
 
 
     public function logout(Request $request){
