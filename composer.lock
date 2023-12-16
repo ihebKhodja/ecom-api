@@ -368,6 +368,9 @@
         {
             "name": "egulias/email-validator",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "4.0.2",
             "source": {
                 "type": "git",
@@ -378,6 +381,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ebaaf5be6c0286928352e054f2d5125608e5405e",
                 "reference": "ebaaf5be6c0286928352e054f2d5125608e5405e",
+<<<<<<< HEAD
 =======
             "version": "4.0.1",
             "source": {
@@ -390,6 +394,8 @@
                 "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/3a85486b709bc384dae8eb78fb2eec649bdb64ff",
                 "reference": "3a85486b709bc384dae8eb78fb2eec649bdb64ff",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -399,12 +405,17 @@
             },
             "require-dev": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "phpunit/phpunit": "^10.2",
                 "vimeo/psalm": "^5.12"
 =======
                 "phpunit/phpunit": "^9.5.27",
                 "vimeo/psalm": "^4.30"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "phpunit/phpunit": "^10.2",
+                "vimeo/psalm": "^5.12"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
@@ -441,10 +452,14 @@
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/egulias/EmailValidator/tree/4.0.2"
 =======
                 "source": "https://github.com/egulias/EmailValidator/tree/4.0.1"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/egulias/EmailValidator/tree/4.0.2"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -453,6 +468,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "time": "2023-10-06T06:47:41+00:00"
         },
         {
@@ -467,6 +485,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/fruitcake/php-cors/zipball/3d158f36e7875e2f040f37bc0573956240a5a38b",
                 "reference": "3d158f36e7875e2f040f37bc0573956240a5a38b",
+<<<<<<< HEAD
 =======
             "time": "2023-01-14T14:17:03+00:00"
         },
@@ -483,15 +502,21 @@
                 "url": "https://api.github.com/repos/fruitcake/php-cors/zipball/58571acbaa5f9f462c9c77e911700ac66f446d4e",
                 "reference": "58571acbaa5f9f462c9c77e911700ac66f446d4e",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4|^8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "symfony/http-foundation": "^4.4|^5.4|^6|^7"
 =======
                 "symfony/http-foundation": "^4.4|^5.4|^6"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "symfony/http-foundation": "^4.4|^5.4|^6|^7"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.4",
@@ -502,10 +527,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "1.2-dev"
 =======
                     "dev-main": "1.1-dev"
 >>>>>>> parent of e3066ba (updates)
+=======
+                    "dev-master": "1.2-dev"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 }
             },
             "autoload": {
@@ -537,10 +566,14 @@
             "support": {
                 "issues": "https://github.com/fruitcake/php-cors/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/fruitcake/php-cors/tree/v1.3.0"
 =======
                 "source": "https://github.com/fruitcake/php-cors/tree/v1.2.0"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/fruitcake/php-cors/tree/v1.3.0"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -553,10 +586,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-12T05:21:21+00:00"
 =======
             "time": "2022-02-20T15:07:15+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-12T05:21:21+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "graham-campbell/result-type",
@@ -749,6 +786,9 @@
         {
             "name": "guzzlehttp/promises",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "2.0.1",
             "source": {
                 "type": "git",
@@ -776,6 +816,7 @@
                 }
             },
             "autoload": {
+<<<<<<< HEAD
 =======
             "version": "1.5.3",
             "source": {
@@ -801,6 +842,8 @@
                     "src/functions_include.php"
                 ],
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "psr-4": {
                     "GuzzleHttp\\Promise\\": "src/"
                 }
@@ -838,10 +881,14 @@
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/promises/tree/2.0.1"
 =======
                 "source": "https://github.com/guzzle/promises/tree/1.5.3"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/guzzle/promises/tree/2.0.1"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -858,10 +905,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-08-03T15:11:55+00:00"
 =======
             "time": "2023-05-21T12:31:43+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-08-03T15:11:55+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1062,6 +1113,9 @@
         {
             "name": "laravel/framework",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "v10.31.0",
             "source": {
                 "type": "git",
@@ -1072,6 +1126,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/507ce9b28bce4b5e4140c28943092ca38e9a52e4",
                 "reference": "507ce9b28bce4b5e4140c28943092ca38e9a52e4",
+<<<<<<< HEAD
 =======
             "version": "v10.26.2",
             "source": {
@@ -1084,6 +1139,8 @@
                 "url": "https://api.github.com/repos/laravel/framework/zipball/6e5440f7c518f26b4495e5d7e4796ec239e26df9",
                 "reference": "6e5440f7c518f26b4495e5d7e4796ec239e26df9",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -1117,10 +1174,14 @@
                 "symfony/error-handler": "^6.2",
                 "symfony/finder": "^6.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "symfony/http-foundation": "^6.3",
 =======
                 "symfony/http-foundation": "^6.2",
 >>>>>>> parent of e3066ba (updates)
+=======
+                "symfony/http-foundation": "^6.3",
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "symfony/http-kernel": "^6.2",
                 "symfony/mailer": "^6.2",
                 "symfony/mime": "^6.2",
@@ -1188,9 +1249,13 @@
                 "league/flysystem-sftp-v3": "^3.0",
                 "mockery/mockery": "^1.5.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "nyholm/psr7": "^1.2",
 =======
 >>>>>>> parent of e3066ba (updates)
+=======
+                "nyholm/psr7": "^1.2",
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "orchestra/testbench-core": "^8.12",
                 "pda/pheanstalk": "^4.0",
                 "phpstan/phpstan": "^1.4.7",
@@ -1198,11 +1263,16 @@
                 "predis/predis": "^2.0.2",
                 "symfony/cache": "^6.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "symfony/http-client": "^6.2.4",
                 "symfony/psr-http-message-bridge": "^2.0"
 =======
                 "symfony/http-client": "^6.2.4"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "symfony/http-client": "^6.2.4",
+                "symfony/psr-http-message-bridge": "^2.0"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "suggest": {
                 "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
@@ -1284,6 +1354,9 @@
                 "source": "https://github.com/laravel/framework"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "time": "2023-11-07T13:48:30+00:00"
         },
         {
@@ -1298,6 +1371,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/e1379d8ead15edd6cc4369c22274345982edc95a",
                 "reference": "e1379d8ead15edd6cc4369c22274345982edc95a",
+<<<<<<< HEAD
 =======
             "time": "2023-10-03T14:24:20+00:00"
         },
@@ -1314,6 +1388,8 @@
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/cce65a90e64712909ea1adc033e1d88de8455ffd",
                 "reference": "cce65a90e64712909ea1adc033e1d88de8455ffd",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -1321,10 +1397,14 @@
                 "illuminate/collections": "^10.0|^11.0",
                 "php": "^8.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "symfony/console": "^6.2|^7.0"
 =======
                 "symfony/console": "^6.2"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "symfony/console": "^6.2|^7.0"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "conflict": {
                 "illuminate/console": ">=10.17.0 <10.25.0",
@@ -1360,6 +1440,9 @@
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "source": "https://github.com/laravel/prompts/tree/v0.1.13"
             },
             "time": "2023-10-27T13:53:59+00:00"
@@ -1376,6 +1459,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sanctum/zipball/e1a272893bec13cf135627f7e156030b3afe1e60",
                 "reference": "e1a272893bec13cf135627f7e156030b3afe1e60",
+<<<<<<< HEAD
 =======
                 "source": "https://github.com/laravel/prompts/tree/v0.1.11"
             },
@@ -1394,6 +1478,8 @@
                 "url": "https://api.github.com/repos/laravel/sanctum/zipball/338f633e6487e76b255470d3373fbc29228aa971",
                 "reference": "338f633e6487e76b255470d3373fbc29228aa971",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -1447,6 +1533,9 @@
                 "source": "https://github.com/laravel/sanctum"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "time": "2023-11-03T13:42:14+00:00"
         },
         {
@@ -1461,6 +1550,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
+<<<<<<< HEAD
 =======
             "time": "2023-09-07T15:46:33+00:00"
         },
@@ -1477,6 +1567,8 @@
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/e5a3057a5591e1cfe8183034b0203921abe2c902",
                 "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -1524,10 +1616,14 @@
                 "source": "https://github.com/laravel/serializable-closure"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-17T13:38:16+00:00"
 =======
             "time": "2023-07-14T13:56:28+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-17T13:38:16+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "laravel/tinker",
@@ -2202,6 +2298,9 @@
         {
             "name": "nette/schema",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "v1.2.5",
             "source": {
                 "type": "git",
@@ -2212,6 +2311,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/schema/zipball/0462f0166e823aad657c9224d0f849ecac1ba10a",
                 "reference": "0462f0166e823aad657c9224d0f849ecac1ba10a",
+<<<<<<< HEAD
 =======
             "version": "v1.2.4",
             "source": {
@@ -2224,6 +2324,8 @@
                 "url": "https://api.github.com/repos/nette/schema/zipball/c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
                 "reference": "c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -2271,6 +2373,9 @@
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "source": "https://github.com/nette/schema/tree/v1.2.5"
             },
             "time": "2023-10-05T20:37:59+00:00"
@@ -2287,6 +2392,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/utils/zipball/a9d127dd6a203ce6d255b2e2db49759f7506e015",
                 "reference": "a9d127dd6a203ce6d255b2e2db49759f7506e015",
+<<<<<<< HEAD
 =======
                 "source": "https://github.com/nette/schema/tree/v1.2.4"
             },
@@ -2305,6 +2411,8 @@
                 "url": "https://api.github.com/repos/nette/utils/zipball/cead6637226456b35e1175cc53797dd585d85545",
                 "reference": "cead6637226456b35e1175cc53797dd585d85545",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -2376,6 +2484,7 @@
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nette/utils/tree/v4.0.3"
             },
             "time": "2023-10-29T21:02:13+00:00"
@@ -2384,6 +2493,11 @@
             },
             "time": "2023-09-19T11:58:07+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/nette/utils/tree/v4.0.3"
+            },
+            "time": "2023-10-29T21:02:13+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "nikic/php-parser",
@@ -2966,6 +3080,9 @@
         {
             "name": "psr/simple-cache",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "3.0.0",
             "source": {
                 "type": "git",
@@ -2980,6 +3097,7 @@
             },
             "require": {
                 "php": ">=8.0.0"
+<<<<<<< HEAD
 =======
             "version": "1.0.1",
             "source": {
@@ -2996,15 +3114,21 @@
             "require": {
                 "php": ">=5.3.0"
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "3.0.x-dev"
 =======
                     "dev-master": "1.0.x-dev"
 >>>>>>> parent of e3066ba (updates)
+=======
+                    "dev-master": "3.0.x-dev"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 }
             },
             "autoload": {
@@ -3020,10 +3144,14 @@
                 {
                     "name": "PHP-FIG",
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "homepage": "https://www.php-fig.org/"
 =======
                     "homepage": "http://www.php-fig.org/"
 >>>>>>> parent of e3066ba (updates)
+=======
+                    "homepage": "https://www.php-fig.org/"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 }
             ],
             "description": "Common interfaces for simple caching",
@@ -3036,6 +3164,9 @@
             ],
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
             },
             "time": "2021-10-29T13:26:27+00:00"
@@ -3052,6 +3183,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/128fa1b608be651999ed9789c95e6e2a31b5802b",
                 "reference": "128fa1b608be651999ed9789c95e6e2a31b5802b",
+<<<<<<< HEAD
 =======
                 "source": "https://github.com/php-fig/simple-cache/tree/master"
             },
@@ -3070,6 +3202,8 @@
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/bcb22101107f3bf770523b65630c9d547f60c540",
                 "reference": "bcb22101107f3bf770523b65630c9d547f60c540",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -3099,10 +3233,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-0.11": "0.11.x-dev"
 =======
                     "dev-main": "0.11.x-dev"
 >>>>>>> parent of e3066ba (updates)
+=======
+                    "dev-0.11": "0.11.x-dev"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 },
                 "bamarni-bin": {
                     "bin-links": false,
@@ -3139,6 +3277,7 @@
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/bobthecow/psysh/tree/v0.11.22"
             },
             "time": "2023-10-14T21:56:36+00:00"
@@ -3147,6 +3286,11 @@
             },
             "time": "2023-09-17T21:15:54+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.22"
+            },
+            "time": "2023-10-14T21:56:36+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "ralouphie/getallheaders",
@@ -3284,6 +3428,9 @@
         {
             "name": "ramsey/uuid",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "4.7.5",
             "source": {
                 "type": "git",
@@ -3294,6 +3441,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ramsey/uuid/zipball/5f0df49ae5ad6efb7afa69e6bfab4e5b1e080d8e",
                 "reference": "5f0df49ae5ad6efb7afa69e6bfab4e5b1e080d8e",
+<<<<<<< HEAD
 =======
             "version": "4.7.4",
             "source": {
@@ -3306,6 +3454,8 @@
                 "url": "https://api.github.com/repos/ramsey/uuid/zipball/60a4c63ab724854332900504274f6150ff26d286",
                 "reference": "60a4c63ab724854332900504274f6150ff26d286",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -3373,10 +3523,14 @@
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/ramsey/uuid/tree/4.7.5"
 =======
                 "source": "https://github.com/ramsey/uuid/tree/4.7.4"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/ramsey/uuid/tree/4.7.5"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -3389,10 +3543,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-11-08T05:53:05+00:00"
 =======
             "time": "2023-04-15T23:01:58+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-11-08T05:53:05+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "symfony/console",
@@ -3913,6 +4071,9 @@
         {
             "name": "symfony/http-foundation",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "v6.3.7",
             "source": {
                 "type": "git",
@@ -3923,6 +4084,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/59d1837d5d992d16c2628cd0d6b76acf8d69b33e",
                 "reference": "59d1837d5d992d16c2628cd0d6b76acf8d69b33e",
+<<<<<<< HEAD
 =======
             "version": "v6.3.5",
             "source": {
@@ -3935,6 +4097,8 @@
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b50f5e281d722cb0f4c296f908bacc3e2b721957",
                 "reference": "b50f5e281d722cb0f4c296f908bacc3e2b721957",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -3945,12 +4109,16 @@
             },
             "conflict": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "symfony/cache": "<6.3"
             },
             "require-dev": {
                 "doctrine/dbal": "^2.13.1|^3|^4",
                 "predis/predis": "^1.1|^2.0",
                 "symfony/cache": "^6.3",
+<<<<<<< HEAD
 =======
                 "symfony/cache": "<6.2"
             },
@@ -3959,6 +4127,8 @@
                 "predis/predis": "^1.1|^2.0",
                 "symfony/cache": "^5.4|^6.0",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "symfony/dependency-injection": "^5.4|^6.0",
                 "symfony/expression-language": "^5.4|^6.0",
                 "symfony/http-kernel": "^5.4.12|^6.0.12|^6.1.4",
@@ -3992,10 +4162,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v6.3.7"
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.3.5"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v6.3.7"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -4012,6 +4186,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "time": "2023-10-28T23:55:27+00:00"
         },
         {
@@ -4026,6 +4203,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/6d4098095f93279d9536a0e9124439560cc764d0",
                 "reference": "6d4098095f93279d9536a0e9124439560cc764d0",
+<<<<<<< HEAD
 =======
             "time": "2023-09-04T21:33:54+00:00"
         },
@@ -4042,6 +4220,8 @@
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/9f991a964368bee8d883e8d57ced4fe9fff04dfc",
                 "reference": "9f991a964368bee8d883e8d57ced4fe9fff04dfc",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -4126,10 +4306,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v6.3.7"
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.3.5"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v6.3.7"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -4146,10 +4330,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-29T14:31:45+00:00"
 =======
             "time": "2023-09-30T06:37:04+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-29T14:31:45+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "symfony/mailer",
@@ -5368,6 +5556,9 @@
         {
             "name": "symfony/translation",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "v6.3.7",
             "source": {
                 "type": "git",
@@ -5378,6 +5569,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/30212e7c87dcb79c83f6362b00bde0e0b1213499",
                 "reference": "30212e7c87dcb79c83f6362b00bde0e0b1213499",
+<<<<<<< HEAD
 =======
             "version": "v6.3.3",
             "source": {
@@ -5390,6 +5582,8 @@
                 "url": "https://api.github.com/repos/symfony/translation/zipball/3ed078c54bc98bbe4414e1e9b2d5e85ed5a5c8bd",
                 "reference": "3ed078c54bc98bbe4414e1e9b2d5e85ed5a5c8bd",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -5456,10 +5650,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v6.3.7"
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.3.3"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/symfony/translation/tree/v6.3.7"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -5476,10 +5674,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-28T23:11:45+00:00"
 =======
             "time": "2023-07-31T07:08:24+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-28T23:11:45+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "symfony/translation-contracts",
@@ -5636,6 +5838,9 @@
         {
             "name": "symfony/var-dumper",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "v6.3.6",
             "source": {
                 "type": "git",
@@ -5646,6 +5851,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/999ede244507c32b8e43aebaa10e9fce20de7c97",
                 "reference": "999ede244507c32b8e43aebaa10e9fce20de7c97",
+<<<<<<< HEAD
 =======
             "version": "v6.3.5",
             "source": {
@@ -5658,6 +5864,8 @@
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/3d9999376be5fea8de47752837a3e1d1c5f69ef5",
                 "reference": "3d9999376be5fea8de47752837a3e1d1c5f69ef5",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -5713,10 +5921,14 @@
             ],
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v6.3.6"
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.3.5"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v6.3.6"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -5733,10 +5945,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-12T18:45:56+00:00"
 =======
             "time": "2023-09-12T10:11:35+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-12T18:45:56+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -6080,6 +6296,9 @@
         {
             "name": "filp/whoops",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "2.15.4",
             "source": {
                 "type": "git",
@@ -6090,6 +6309,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/filp/whoops/zipball/a139776fa3f5985a50b509f2a02ff0f709d2a546",
                 "reference": "a139776fa3f5985a50b509f2a02ff0f709d2a546",
+<<<<<<< HEAD
 =======
             "version": "2.15.3",
             "source": {
@@ -6102,6 +6322,8 @@
                 "url": "https://api.github.com/repos/filp/whoops/zipball/c83e88a30524f9360b11f585f71e6b17313b7187",
                 "reference": "c83e88a30524f9360b11f585f71e6b17313b7187",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -6152,10 +6374,14 @@
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/filp/whoops/tree/2.15.4"
 =======
                 "source": "https://github.com/filp/whoops/tree/2.15.3"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/filp/whoops/tree/2.15.4"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -6164,10 +6390,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-11-03T12:00:00+00:00"
 =======
             "time": "2023-07-13T12:00:00+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-11-03T12:00:00+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -6223,6 +6453,9 @@
         {
             "name": "laravel/pint",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "v1.13.6",
             "source": {
                 "type": "git",
@@ -6233,6 +6466,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/3e3d2ab01c7d8b484c18e6100ecf53639c744fa7",
                 "reference": "3e3d2ab01c7d8b484c18e6100ecf53639c744fa7",
+<<<<<<< HEAD
 =======
             "version": "v1.13.2",
             "source": {
@@ -6245,6 +6479,8 @@
                 "url": "https://api.github.com/repos/laravel/pint/zipball/bbb13460d7f8c5c0cd9a58109beedd79cd7331ff",
                 "reference": "bbb13460d7f8c5c0cd9a58109beedd79cd7331ff",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -6256,6 +6492,9 @@
             },
             "require-dev": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "friendsofphp/php-cs-fixer": "^3.38.0",
                 "illuminate/view": "^10.30.1",
                 "laravel-zero/framework": "^10.3.0",
@@ -6263,6 +6502,7 @@
                 "nunomaduro/larastan": "^2.6.4",
                 "nunomaduro/termwind": "^1.15.1",
                 "pestphp/pest": "^2.24.2"
+<<<<<<< HEAD
 =======
                 "friendsofphp/php-cs-fixer": "^3.26.1",
                 "illuminate/view": "^10.23.1",
@@ -6272,6 +6512,8 @@
                 "nunomaduro/termwind": "^1.15.1",
                 "pestphp/pest": "^2.18.2"
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "bin": [
                 "builds/pint"
@@ -6308,6 +6550,9 @@
                 "source": "https://github.com/laravel/pint"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "time": "2023-11-07T17:59:57+00:00"
         },
         {
@@ -6333,6 +6578,7 @@
             },
             "require-dev": {
                 "orchestra/testbench": "^7.0|^8.0|^9.0",
+<<<<<<< HEAD
 =======
             "time": "2023-09-19T15:55:02+00:00"
         },
@@ -6360,6 +6606,8 @@
             "require-dev": {
                 "orchestra/testbench": "^6.0|^7.0|^8.0",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "phpstan/phpstan": "^1.10"
             },
             "bin": [
@@ -6401,10 +6649,14 @@
                 "source": "https://github.com/laravel/sail"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-18T13:57:15+00:00"
 =======
             "time": "2023-09-11T17:37:09+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-18T13:57:15+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "mockery/mockery",
@@ -6553,6 +6805,9 @@
         {
             "name": "nunomaduro/collision",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "v7.10.0",
             "source": {
                 "type": "git",
@@ -6563,6 +6818,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/collision/zipball/49ec67fa7b002712da8526678abd651c09f375b2",
                 "reference": "49ec67fa7b002712da8526678abd651c09f375b2",
+<<<<<<< HEAD
 =======
             "version": "v7.9.0",
             "source": {
@@ -6575,6 +6831,8 @@
                 "url": "https://api.github.com/repos/nunomaduro/collision/zipball/296d0cf9fe462837ac0da8a568b56fc026b132da",
                 "reference": "296d0cf9fe462837ac0da8a568b56fc026b132da",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -6584,6 +6842,9 @@
                 "symfony/console": "^6.3.4"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "conflict": {
                 "laravel/framework": ">=11.0.0"
             },
@@ -6591,22 +6852,29 @@
                 "brianium/paratest": "^7.3.0",
                 "laravel/framework": "^10.28.0",
                 "laravel/pint": "^1.13.3",
+<<<<<<< HEAD
 =======
             "require-dev": {
                 "brianium/paratest": "^7.2.7",
                 "laravel/framework": "^10.23.1",
                 "laravel/pint": "^1.13.1",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "laravel/sail": "^1.25.0",
                 "laravel/sanctum": "^3.3.1",
                 "laravel/tinker": "^2.8.2",
                 "nunomaduro/larastan": "^2.6.4",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "orchestra/testbench-core": "^8.13.0",
                 "pestphp/pest": "^2.23.2",
                 "phpunit/phpunit": "^10.4.1",
                 "sebastian/environment": "^6.0.1",
                 "spatie/laravel-ignition": "^2.3.1"
+<<<<<<< HEAD
 =======
                 "orchestra/testbench-core": "^8.11.0",
                 "pestphp/pest": "^2.19.1",
@@ -6614,6 +6882,8 @@
                 "sebastian/environment": "^6.0.1",
                 "spatie/laravel-ignition": "^2.3.0"
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "type": "library",
             "extra": {
@@ -6673,10 +6943,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-11T15:45:01+00:00"
 =======
             "time": "2023-09-19T10:45:09+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-11T15:45:01+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "phar-io/manifest",
@@ -7113,6 +7387,9 @@
         {
             "name": "phpunit/phpunit",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "10.4.2",
             "source": {
                 "type": "git",
@@ -7123,6 +7400,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cacd8b9dd224efa8eb28beb69004126c7ca1a1a1",
                 "reference": "cacd8b9dd224efa8eb28beb69004126c7ca1a1a1",
+<<<<<<< HEAD
 =======
             "version": "10.3.5",
             "source": {
@@ -7135,6 +7413,8 @@
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/747c3b2038f1139e3dcd9886a3f5a948648b7503",
                 "reference": "747c3b2038f1139e3dcd9886a3f5a948648b7503",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -7175,10 +7455,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "10.4-dev"
 =======
                     "dev-main": "10.3-dev"
 >>>>>>> parent of e3066ba (updates)
+=======
+                    "dev-main": "10.4-dev"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 }
             },
             "autoload": {
@@ -7211,10 +7495,14 @@
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.2"
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.3.5"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.2"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -7231,10 +7519,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-26T07:21:45+00:00"
 =======
             "time": "2023-09-19T05:42:37+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-26T07:21:45+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "sebastian/cli-parser",
@@ -8216,6 +8508,9 @@
         {
             "name": "spatie/flare-client-php",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "version": "1.4.3",
             "source": {
                 "type": "git",
@@ -8245,6 +8540,7 @@
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-phpunit": "^1.0",
                 "spatie/phpunit-snapshot-assertions": "^4.0|^5.0"
+<<<<<<< HEAD
 =======
             "version": "1.4.2",
             "source": {
@@ -8276,6 +8572,8 @@
                 "phpstan/phpstan-phpunit": "^1.0",
                 "spatie/phpunit-snapshot-assertions": "^4.0"
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "type": "library",
             "extra": {
@@ -8306,10 +8604,14 @@
             "support": {
                 "issues": "https://github.com/spatie/flare-client-php/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/spatie/flare-client-php/tree/1.4.3"
 =======
                 "source": "https://github.com/spatie/flare-client-php/tree/1.4.2"
 >>>>>>> parent of e3066ba (updates)
+=======
+                "source": "https://github.com/spatie/flare-client-php/tree/1.4.3"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             },
             "funding": [
                 {
@@ -8318,6 +8620,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "time": "2023-10-17T15:54:07+00:00"
         },
         {
@@ -8332,6 +8637,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/spatie/ignition/zipball/3d886de644ff7a5b42e4d27c1e1f67c8b5f00044",
                 "reference": "3d886de644ff7a5b42e4d27c1e1f67c8b5f00044",
+<<<<<<< HEAD
 =======
             "time": "2023-07-28T08:07:24+00:00"
         },
@@ -8348,6 +8654,8 @@
                 "url": "https://api.github.com/repos/spatie/ignition/zipball/48b23411ca4bfbc75c75dfc638b6b36159c375aa",
                 "reference": "48b23411ca4bfbc75c75dfc638b6b36159c375aa",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -8357,6 +8665,9 @@
                 "spatie/backtrace": "^1.5.3",
                 "spatie/flare-client-php": "^1.4.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "symfony/console": "^5.4|^6.0|^7.0",
                 "symfony/var-dumper": "^5.4|^6.0|^7.0"
             },
@@ -8364,6 +8675,7 @@
                 "illuminate/cache": "^9.52|^10.0|^11.0",
                 "mockery/mockery": "^1.4",
                 "pestphp/pest": "^1.20|^2.0",
+<<<<<<< HEAD
 =======
                 "symfony/console": "^5.4|^6.0",
                 "symfony/var-dumper": "^5.4|^6.0"
@@ -8373,10 +8685,13 @@
                 "mockery/mockery": "^1.4",
                 "pestphp/pest": "^1.20",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-phpunit": "^1.0",
                 "psr/simple-cache-implementation": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "symfony/cache": "^5.4|^6.0|^7.0",
                 "symfony/process": "^5.4|^6.0|^7.0",
@@ -8384,6 +8699,10 @@
                 "symfony/cache": "^6.0",
                 "symfony/process": "^5.4|^6.0",
 >>>>>>> parent of e3066ba (updates)
+=======
+                "symfony/cache": "^5.4|^6.0|^7.0",
+                "symfony/process": "^5.4|^6.0|^7.0",
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "vlucas/phpdotenv": "^5.5"
             },
             "suggest": {
@@ -8433,6 +8752,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
             "time": "2023-10-18T14:09:40+00:00"
         },
         {
@@ -8447,6 +8769,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/bf21cd15aa47fa4ec5d73bbc932005c70261efc8",
                 "reference": "bf21cd15aa47fa4ec5d73bbc932005c70261efc8",
+<<<<<<< HEAD
 =======
             "time": "2023-09-19T15:29:52+00:00"
         },
@@ -8463,6 +8786,8 @@
                 "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/4ed813d16edb5a1ab0d7f4b1d116c37ee8cdf3c0",
                 "reference": "4ed813d16edb5a1ab0d7f4b1d116c37ee8cdf3c0",
 >>>>>>> parent of e3066ba (updates)
+=======
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
                 "shasum": ""
             },
             "require": {
@@ -8542,10 +8867,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-09T12:55:26+00:00"
 =======
             "time": "2023-08-23T06:24:34+00:00"
 >>>>>>> parent of e3066ba (updates)
+=======
+            "time": "2023-10-09T12:55:26+00:00"
+>>>>>>> 6802d8b1d609a94713b80282fbdd16f083f226ea
         },
         {
             "name": "symfony/yaml",
