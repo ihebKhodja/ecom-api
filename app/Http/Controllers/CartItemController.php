@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\CartItem;
+use App\Models\Product;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -44,18 +45,26 @@ class CartItemController extends Controller
         }
     }
 
-
+    
+/** 
+ * Sending Cart Item with product 
+*/
     public function showByUser()
     {
-         try {
+        try {   
             $userId=auth()->id();
             $cartItems = CartItem::where('users_id', auth()->id())->get();
-             if ($cartItems ->isEmpty()) {
+            if ($cartItems ->isEmpty()) {
                 return response()->json(['message' => 'User has no cart items.'], 404);
             }
-            
-            return Response($cartItems, 200);
-
+        
+            $cartItemsProducts=$cartItems->map(function($cartItem){
+                $cartItem->product =Product::find($cartItem->products_id);
+                unset($cartItem->products_id);
+                return $cartItem;
+            });
+            return Response($cartItemsProducts, 200);   
+        
         } catch (\Exception $e) {
             return response()->json(['error' => 'Resource not found.'],$e, 404);
         }
