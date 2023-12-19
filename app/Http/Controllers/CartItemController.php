@@ -20,7 +20,7 @@ class CartItemController extends Controller
             $carts =CartItem::all();
             return Response($carts, 200);
         } catch (\Exception $e) {
-            return response()->json(['error' => 'Resource not found.'], 404);
+            return response()->json(['error' => 'Resource not found.'], $e, 404);
         }
     }
 
@@ -45,7 +45,7 @@ class CartItemController extends Controller
         }
     }
 
-    
+
 /** 
  * Sending Cart Item with product 
 */
