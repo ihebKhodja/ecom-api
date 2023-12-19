@@ -18,7 +18,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'role'
+        'is_admin'
     ];
 
     protected $hidden = [
@@ -31,15 +31,11 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    public function isCLient(){
-        return $this->role ==='client';
-    }
-
-    public function isSeller()
-    {
-        return $this->role === 'seller';
-    }
-
+    //  public function cart()
+    // {
+    //     return $this->hasOne(Cart::class);
+    // }
+   
     public function product()
     {
         return $this->hasMany(Product::class);

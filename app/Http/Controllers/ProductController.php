@@ -28,6 +28,8 @@ class ProductController extends Controller
     /**
      * Store a newly created resource in storage.
      */
+                
+                
     public function store(Request $request)
     {
         try {
@@ -37,26 +39,30 @@ class ProductController extends Controller
                 'price' => 'required',
                 'description'=>'required',
                 'categories_id'=>'required',
-                'user_id' => 'required',
                 'image' => 'required',
                 'image.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
             ]);
 
+            $image = $request->file('image');
 
+            $filename= time().'.'.$image->getClientOriginalExtension();
+            $image->move('uploads/images/', $filename);
+        
+            // Will try to use media library later on
+            // $product->addMedia($image)->toMediaCollection('images'); 
+            //  $image->addFromMediaLibraryRequest('image')->toMediaCollection('images');
+            
             if($request->has('image')){
-                $image =$request['image'];
-                $filename= Str::random(32).'.'.$image->getClientOriginalExtension();
-                $image->move('uploads/', $filename);
-                $product= Product::create([
-                    'name' => $request['name'],
-                    'slug' => $request['slug'],
-                    'price' => $request['price'],
-                    'description' => $request['description'],
-                    'categories_id'=>$request['categories_id'],
-                    'user_id'=>$request['user_id'],
-                    'image' => $image,
+                $product = Product::create([
+                'name' => $request['name'],
+                'slug' => $request['slug'],
+                'price' => $request['price'],
+                'description' => $request['description'],
+                'categories_id' => $request['categories_id'],
+                'user_id' => auth()->id(),
+                'image' =>$image,
                 ]);
-                return Response($product, 201);
+            return response($product, 201);
             
               
             }else{
@@ -68,7 +74,7 @@ class ProductController extends Controller
 
 
         } catch (\Exception $e) {
-            return response()->json(['error' => 'Failed to create the resource.' ], 500);
+            return response()->json(['error' => 'Failed to create the resource.', $e ], 500);
         }
         
     }
@@ -113,7 +119,7 @@ class ProductController extends Controller
             Product::destroy($id);
             return Response(null, 200);
         } catch (\Exception $e) {
-            return response()->json(['error' => 'An error occurred while deleting the resource.'], 500);
+            return response()->json(['error' => 'An error occurred while deleting the resource.'], $e, 500);
         }
     }
     

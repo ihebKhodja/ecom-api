@@ -4,21 +4,21 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Models\Cart;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
-
-    public function register(Request $request){
     
-    try{
+    public function register(Request $request){
+        try{
         $fields= $request->validate([
             'name'=>'required|string',
             'email' => 'required|string|unique:users,email',
             'password'=>'required|string|confirmed',
-            'role' => 'required|string',
+            'is_admin' => 'boolean||nullable',
             
         ]);
 
@@ -26,17 +26,21 @@ class AuthController extends Controller
             'name'=>$fields['name'],
             'email'=>$fields['email'],
             'password'=>bcrypt($fields['password']),
-            'role' => $fields['role'],
-
+            'is_admin' => $fields['is_admin'] ?? false// by defuat user is not admin
+            
         ]);
-
+        //  $cart=Cart::create(['user_id' => auth()->id(),]);
+        // $cart = Cart::create(['user_id'=>$user->id]);
+        // $cart->user()->associate($user);
+        // $cart->save();
         $token= $user->createToken('myapp')->plainTextToken;
-
+        
         $response= [
             'user'=>$user,
             'token'=>$token,
         ];
         return Response($response, 201);
+        
     } catch (\Exception $e) {
         return response()->json(['error' => 'An error occurred',$e], 500);
     }
@@ -77,7 +81,7 @@ class AuthController extends Controller
 
         return Response($response, 201);
          } catch (\Exception $e) {
-                return response()->json(['error' => 'An error occurred'], 500);
+                return response()->json(['error' => 'An error occurred', $e], 500);
         }
     }
 }

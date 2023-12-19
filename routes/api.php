@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\CartController;
+use App\Http\Controllers\CartItemController;
 use App\Http\Controllers\CategoriesController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-// Route::resource('/products',ProductController::class);
 
 /// Public routes
 Route::post('/register', [AuthController::class, 'register']);
@@ -48,13 +47,18 @@ Route::group(['middleware'=>['auth:sanctum']], function(){
 
 
     });
-    Route::group(['prefix' => 'carts'], function () {
-        Route::post('/carts', [CartController::class, 'store']);
-        Route::get('/carts/{id}', [CartController::class, 'show']);
+    Route::group(['prefix' => 'cartitems'], function () {
+        Route::post('/', [CartItemController::class, 'index']);
+        
+        Route::put('/{id}', [CartItemController::class, 'update']);
+        Route::delete('/{id}', [CartItemController::class, 'destroy']);
+        Route::get('/user', [CartItemController::class, 'showByUser']);
+        Route::post('/add/{id}', [CartItemController::class, 'addToCart']);
     });
     
 
     Route::post('/logout',[AuthController::class,'logout']);
+    
 });
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {

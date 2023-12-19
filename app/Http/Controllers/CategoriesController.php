@@ -19,7 +19,7 @@ class CategoriesController extends Controller
             $categories =Categories::all();
             return Response($categories, 200);
         } catch (\Exception $e) {
-            return response()->json(['error' => 'Resource not found.'], 404);
+            return response()->json(['error' => 'Resource not found. ' ],$e, 404);
         }
     }
 
@@ -38,7 +38,7 @@ class CategoriesController extends Controller
             return Response($catetgory, 201);
 
         } catch (\Exception $e) {
-            return response()->json(['error' => 'Failed to create the resource.'], 500);
+            return response()->json(['error' => 'Failed to create the resource.'], $e, 500);
         }
 
         
@@ -53,7 +53,7 @@ class CategoriesController extends Controller
             $category =Categories::findOrFail($id);
             return Response($category, 200);
         } catch (\Exception $e) {
-            return response()->json(['error' => 'Resource not found.'], 404);
+            return response()->json(['error' => 'Resource not found.', ] ,$e, 404);
         }
 
     }
@@ -68,7 +68,7 @@ class CategoriesController extends Controller
         $category->update($request->all());
         return Response($category,200);
         } catch (\Exception $e) {
-            return response()->json(['error' => 'An error occurred while updating the resource.'], 500);
+            return response()->json(['error' => 'An error occurred while updating the resource.'], $e, 500);
         }
     }
 
@@ -81,7 +81,7 @@ class CategoriesController extends Controller
         Categories::destroy($id);
         return Response(null,200);
         } catch (\Exception $e) {
-            return response()->json(['error' => 'An error occurred while deleting the resource.'], 500);
+            return response()->json(['error' => 'An error occurred while deleting the resource.'],  $e, 500);
         }
     }
 }
