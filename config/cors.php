@@ -19,7 +19,8 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://127.0.0.1:5173','https://ecom-api-78v4.onrender.com'],
+    // 'allowed_origins' => ['http://localhost:3000/','https://ecom-api-78v4.onrender.com'],
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 

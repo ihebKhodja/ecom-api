@@ -39,11 +39,13 @@ Route::get('/carts', [CartController::class, 'index']);
 */
 
 Route::group(['middleware'=>['auth:sanctum', 'is_admin']], function(){
+    
     Route::prefix('/products')->group(function(){
         Route::post('/', [ProductController::class, 'store']);
         Route::put('/{id}', [ProductController::class, 'update']);
         Route::delete('/{id}', [ProductController::class, 'destroy']);
          });
+
     Route::group(['prefix' => 'categories'], function () {
         Route::post('/', [CategoriesController::class, 'store']);
         Route::put('/{id}', [CategoriesController::class, 'update']);

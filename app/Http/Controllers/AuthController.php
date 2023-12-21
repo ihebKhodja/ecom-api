@@ -29,10 +29,7 @@ class AuthController extends Controller
             'is_admin' => $fields['is_admin'] ?? false// by defuat user is not admin
             
         ]);
-        //  $cart=Cart::create(['user_id' => auth()->id(),]);
-        // $cart = Cart::create(['user_id'=>$user->id]);
-        // $cart->user()->associate($user);
-        // $cart->save();
+        
         $token= $user->createToken('myapp')->plainTextToken;
         
         $response= [
