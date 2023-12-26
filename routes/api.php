@@ -18,9 +18,9 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
 Route::group(['prefix'=>'products'], function(){
-    Route::get('/search/{name}', [ProductController::class, 'search']); 
     Route::get('/', [ProductController::class, 'index']);
     Route::get('/{id}', [ProductController::class, 'show']);
+    Route::get('/search/{name}', [ProductController::class, 'search']); 
     Route::get('/categories/{id}', [ProductController::class, 'showByCategory']);
 });
 
@@ -41,18 +41,18 @@ Route::get('/carts', [CartController::class, 'index']);
 Route::group(['middleware'=>['auth:sanctum', 'is_admin']], function(){
     
     Route::prefix('/products')->group(function(){
-        Route::post('/', [ProductController::class, 'store']);
         Route::put('/{id}', [ProductController::class, 'update']);
         Route::delete('/{id}', [ProductController::class, 'destroy']);
+        Route::post('/', [ProductController::class, 'store']);
          });
 
     Route::group(['prefix' => 'categories'], function () {
         Route::post('/', [CategoriesController::class, 'store']);
         Route::put('/{id}', [CategoriesController::class, 'update']);
         Route::delete('/{id}', [CategoriesController::class, 'destroy']);
-
-
     });
+
+    
 });
 
 /*

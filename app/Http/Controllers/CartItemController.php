@@ -38,7 +38,7 @@ class CartItemController extends Controller
             'products_id' => $productId,
             'quantity' => $request->input('quantity', 1),
         ]);
-        return response($cartitem, 201);
+        return response(201);
         }
         catch (\Exception $e) {
             return response()->json(['error' => $e], 500);

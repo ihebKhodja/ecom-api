@@ -26,8 +26,5 @@ class Product extends Model implements HasMedia
     }
 
 
-    public function seller()
-    {
-        return $this->belongsTo(User::class, 'user_id');
-    }
+    
 }
