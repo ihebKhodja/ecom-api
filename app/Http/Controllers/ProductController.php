@@ -21,7 +21,6 @@ class ProductController extends Controller
         try {
                 $products = Product::latest()->get();
 
-                // Prepare an array to store media URLs
 
                 // Retrieve all media for each product
                 foreach ($products as $product) {
@@ -29,7 +28,6 @@ class ProductController extends Controller
                     $media=preg_replace('#^https?://http://#i', 'http://', $media); // there is a duplication of http in the url
                     $product->image=$media;
                     unset($product->media);
-
                 }
 
                 return response()->json($products, 200);

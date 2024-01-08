@@ -65,13 +65,13 @@ Route::group(['middleware'=>['auth:sanctum']], function(){
    
     Route::group(['prefix' => 'cartitems'], function () {
         // Route::get('/', [CartItemController::class, 'index']);
+        Route::get('/user', [CartItemController::class, 'showByUser']);
         
         Route::put('/{id}', [CartItemController::class, 'update']);
         Route::delete('/{id}', [CartItemController::class, 'destroy']);
-        Route::get('/user', [CartItemController::class, 'showByUser']);
         Route::post('/add/{id}', [CartItemController::class, 'addToCart']);
     });
-    
+        
 
     Route::post('/logout',[AuthController::class,'logout']);
     

@@ -59,11 +59,32 @@ class CartItemController extends Controller
             }
         
             $cartItemsProducts=$cartItems->map(function($cartItem){
-                $cartItem->product =Product::find($cartItem->products_id);
+                $product =Product::find($cartItem->products_id);
+                    $media = $product->getFirstMediaUrl('images');
+                    $media=preg_replace('#^https?://http://#i', 'http://', $media); // there is a duplication of http in the url
+                    $product->image=$media;
+                    unset($product->media);
+                
+                $cartItem->product= $product;
                 unset($cartItem->products_id);
                 return $cartItem;
             });
-            return Response($cartItemsProducts, 200);   
+
+            function sumCart($array) {
+                $total = 0;
+                if(empty($array))
+                    $total=0;
+                else{
+
+                    foreach ($array as $item) {
+                        $total += $item->quantity* $item->product->price;
+                    }
+                }
+                return $total;
+            }
+            $cartTotal= sumCart($cartItemsProducts);
+       
+            return response()->json(['cartItems' => $cartItemsProducts, 'cartTotal' => $cartTotal], 200);
         
         } catch (\Exception $e) {
             return response()->json(['error' => 'Resource not found.'],$e, 404);
