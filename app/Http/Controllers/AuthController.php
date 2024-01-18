@@ -26,7 +26,7 @@ class AuthController extends Controller
             'name'=>$fields['name'],
             'email'=>$fields['email'],
             'password'=>bcrypt($fields['password']),
-            'is_admin' => $fields['is_admin'] ?? false// by defuat user is not admin
+            'is_admin' => $fields['is_admin'] ?? false// by default user is not admin
             
         ]);
         

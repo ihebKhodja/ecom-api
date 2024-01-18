@@ -17,14 +17,17 @@ class Product extends Model implements HasMedia
         'price',
         'image',
         'categories_id',
-        'user_id'
+        'users_id'
     ];
 
     public function category()
     {
         return $this->belongsTo(categories::class);
     }
-
+     public function cartItems()
+    {
+        return $this->hasMany(CartItem::class);
+    }
 
     
 }

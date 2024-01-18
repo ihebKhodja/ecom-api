@@ -19,8 +19,9 @@ return new class extends Migration
             $table->decimal('price',6, 2);
             $table->string('image')->nullable();
             $table->unsignedInteger('categories_id');
-            $table->unsignedInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->unsignedInteger('users_id');
+            
+            $table->foreign('users_id')->references('id')->on('users');
             $table->foreign('categories_id')->references('id')->on('categories');
             
             $table->timestamps();

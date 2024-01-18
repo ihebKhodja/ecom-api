@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\CartItem;
 use App\Models\Product;
+use App\Models\Order;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -37,7 +38,9 @@ class CartItemController extends Controller
             'users_id' => auth()->id(),
             'products_id' => $productId,
             'quantity' => $request->input('quantity', 1),
+            // 'orders_id'=>null,
         ]);
+       
         return response(201);
         }
         catch (\Exception $e) {
@@ -69,7 +72,7 @@ class CartItemController extends Controller
                 unset($cartItem->products_id);
                 return $cartItem;
             });
-
+            // Calculte the Cart Total 
             function sumCart($array) {
                 $total = 0;
                 if(empty($array))
@@ -82,6 +85,7 @@ class CartItemController extends Controller
                 }
                 return $total;
             }
+
             $cartTotal= sumCart($cartItemsProducts);
        
             return response()->json(['cartItems' => $cartItemsProducts, 'cartTotal' => $cartTotal], 200);

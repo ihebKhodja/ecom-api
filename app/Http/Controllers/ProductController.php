@@ -44,9 +44,8 @@ class ProductController extends Controller
                 
     public function store(Request $request)
     {
-        try {
-                $request->validate([
-                'name'=>'required',
+        $request->validate([
+            'name'=>'required',
                 'slug'=>'required',
                 'price' => 'required',
                 'description'=>'required',
@@ -62,24 +61,25 @@ class ProductController extends Controller
                 'price' => $request['price'],
                 'description' => $request['description'],
                 'categories_id' => $request['categories_id'],
-                'user_id' => auth()->id(),
+                'users_id' => auth()->id(),
                 // 'image' =>$request['image'],
             ]);
                 $product->addMediaFromRequest('image')->usingName($product->name)->toMediaCollection('images'); 
-            return response($product, 201);
-            
-              
+                return response($product, 201);
+                
+                
             }else{
                 $response["status"] = "failed";
                 $response["message"] = "Failed! image(s) not uploaded";
                 return response()->json($response);
-
+                
             }
+            
+        //     try {
 
-
-        } catch (\Exception $e) {
-            return response()->json(['error' => 'Failed to create the resource.'], $e , 500);
-        }
+        // } catch (\Exception $e) {
+        //     return response()->json(['error' => 'Failed to create the resource.'], $e , 500);
+        // }
         
     }
         

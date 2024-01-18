@@ -4,6 +4,8 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CartItemController;
 use App\Http\Controllers\CategoriesController;
+use App\Http\Controllers\OrderController;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 /*
@@ -39,6 +41,8 @@ Route::get('/carts', [CartController::class, 'index']);
 */
 
 Route::group(['middleware'=>['auth:sanctum', 'is_admin']], function(){
+
+    Route::get('/order', [OrderController::class ,'index']); // All orders
     
     Route::prefix('/products')->group(function(){
         Route::put('/{id}', [ProductController::class, 'update']);
@@ -62,14 +66,16 @@ Route::group(['middleware'=>['auth:sanctum', 'is_admin']], function(){
 */
 Route::group(['middleware'=>['auth:sanctum']], function(){
 
+    Route::get('/order/user', [OrderController::class ,'showByUs    er']);
+    Route::post('/order', [OrderController::class ,'store']);
    
     Route::group(['prefix' => 'cartitems'], function () {
         // Route::get('/', [CartItemController::class, 'index']);
+        Route::post('/add/{id}', [CartItemController::class, 'addToCart']);
         Route::get('/user', [CartItemController::class, 'showByUser']);
         
         Route::put('/{id}', [CartItemController::class, 'update']);
         Route::delete('/{id}', [CartItemController::class, 'destroy']);
-        Route::post('/add/{id}', [CartItemController::class, 'addToCart']);
     });
         
 
