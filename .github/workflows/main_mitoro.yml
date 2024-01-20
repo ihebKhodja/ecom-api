@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'mitoro'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E6DA6C7642DB4286A6258763C5492D14 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_777B1608F62B4F8CB89956F886988C07 }}
           package: .
